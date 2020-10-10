@@ -16,7 +16,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about", label: "About" },
     ],
-    footerHTML: `© 2020 <a href="https://github.com/gdrk">gatsby blog</a> All rights reserved.`,
+    footerHTML: `<a href="https://beian.miit.gov.cn/">苏ICP备19015239号</a><br/>© 2020 <a href="https://github.com/gdrk">gatsby blog</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },

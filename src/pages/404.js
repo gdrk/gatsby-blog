@@ -1,25 +1,20 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import styled from 'styled-components';
-import Wrapper from '../components/Wrapper';
-import { media } from '../utils/media';
+import Layout from "../components/layout"
+import Main from "../components/main"
+import Page from "../components/page"
+import React from "react"
+import Sidebar from "../components/sidebar"
 
-import config from '../../config/SiteConfig';
+const NotFoundPage = () => {
+  return (
+    <Layout title="404: Not Found">
+      <Sidebar />
+      <Main>
+        <Page title="404: Not Found">
+          <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        </Page>
+      </Main>
+    </Layout>
+  )
+}
 
-const Container = styled.div`
-  @media ${media.desktop} {
-    max-width: 50%;
-    margin: 0 auto;
-  }
-`;
-const NotFound = () => (
-  <Wrapper>
-    <Container>
-      <Helmet title={`404页面 | ${config.siteTitle}`} />
-      <h1>404页面</h1>
-      <p>哎呀，您访问的页面不在服务区。</p>
-    </Container>
-  </Wrapper>
-);
-
-export default NotFound;
+export default NotFoundPage

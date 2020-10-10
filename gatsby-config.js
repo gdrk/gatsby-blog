@@ -9,7 +9,6 @@ module.exports = {
       email: "#",
       github: "#",
       rss: "/rss.xml",
-      telegram: "#",
       twitter: "#"
     },
     sidebarMenu: [
@@ -158,6 +157,7 @@ module.exports = {
           repo: "gatsby-blog",
           owner: "gdrk",
           admin: ["gdrk"],
+          id: location.pathname,
           pagerDirection: "last",
           createIssueManually: true,
           distractionFreeMode: true,

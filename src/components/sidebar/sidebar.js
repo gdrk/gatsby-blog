@@ -26,7 +26,6 @@ const Sidebar = ({ toc }) => {
               email
               github
               rss
-              telegram
               twitter
             }
             footerHTML

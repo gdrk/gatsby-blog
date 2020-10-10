@@ -1,11 +1,7 @@
-<!--
- * @Author: your name
- * @Date: 2020-10-11 00:04:19
- * @LastEditTime: 2020-10-11 00:12:15
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \apps\gatsby-blog\README.md
--->
+# esck Blog
+
+[木易的博客](https://blog.547210875.xyz/)
+
 ## Features
 
 - React.js & Gatsby.js V2

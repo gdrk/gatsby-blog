@@ -1,0 +1,11 @@
+node_modules/
+public
+.gatsby-context.js
+.DS_Store
+.icloud
+.intermediate-representation/
+.cache/
+.vscode/
+package-lock.json
+yarn-error.log
+static/*/**.icloud

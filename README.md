@@ -1,9 +1,11 @@
-# Tristan Yang's Blog
-
-[杨二的博客](https://blog.yangerxiao.com/)
-
-记录生活，见证成长。
-
+<!--
+ * @Author: your name
+ * @Date: 2020-10-11 00:04:19
+ * @LastEditTime: 2020-10-11 00:12:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \apps\gatsby-blog\README.md
+-->
 ## Features
 
 - React.js & Gatsby.js V2
@@ -31,15 +33,11 @@
 - Node >= v10.0
 - 全局安装 `npm i -g gatsby-cli`
 
-### 下载源码
-
-`git clone https://github.com/zerosoul/blog.yangerxiao.com.git BLOG.YOURDOMAIN.COM`
-
 ### 本地开发
 
 > 推荐使用 yarn
 
-`cd BLOG.YOURDOMAIN.COM && yarn install && yarn dev`
+`yarn install && yarn dev`
 
 ### 查看效果
 
